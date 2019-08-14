@@ -2,6 +2,8 @@
 
 <p align="center"> A simplified version of the laravel framework unit test.</p>
 
+## 框架要求
+Laravel >= 5.1 & php >= 7.1.3
 
 ## Installing
 
@@ -9,9 +11,18 @@
 $ composer require fujiangsun/sunit-laravel -vvv
 ```
 
-## Usage
+## 配置方式
 
-TODO
+5.5手动配置laravel对于FuJiangSun\SunitLaravel\Providers\SUnitServiceProvider::class服务放到config/app.php中
+
+##解释路由
+
+```shell
+<?php
+Route::get('/', 'JunitController@index');
+Route::post('/', 'JunitController@store')->name('junit.store');
+?>
+```
 
 ## Contributing
 

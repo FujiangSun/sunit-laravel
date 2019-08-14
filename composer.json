@@ -1,0 +1,17 @@
+{
+    "name": "fujiangsun\/sunit-laravel",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FujiangSun",
+            "email": "317394378@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "FuJiangSun\\SunitLaravel\\": "src"
+        }
+    }
+}

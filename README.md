@@ -1,6 +1,6 @@
 <h1 align="center"> sunit-laravel </h1>
 
-<p align="center"> A simplified version of the laravel framework unit test.</p>
+<p align="center">一个能快速测试类方法的测试工具</p>
 
 ## 框架要求
 Laravel >= 5.1 & php >= 7.1.3
